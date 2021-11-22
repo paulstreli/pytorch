@@ -34,14 +34,7 @@ CONFIG_TREE_DATA = [
             ]),
         ]),
     ]),
-    ("bionic", [
-        ("clang", [
-            ("9", [
-                ("3.6", [
-                    ("xla", [XImportant(True)]),
-                ]),
-            ]),
-        ]),
+    # ("bionic", [
         # @jithunnair-amd believes Jenkins builds are sufficient
         # ("rocm", [
         #     ("3.9", [
@@ -50,7 +43,7 @@ CONFIG_TREE_DATA = [
         #         ]),
         #     ]),
         # ]),
-    ]),
+    # ]),
 ]
 
 
